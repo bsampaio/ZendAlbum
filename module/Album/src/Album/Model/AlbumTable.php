@@ -56,7 +56,7 @@ class AlbumTable {
             }
         }
     }
-    
+
     public function deleteAlbum($id) {
         $this->tableGateway->delete(['id'=> (int) $id]);
     }
