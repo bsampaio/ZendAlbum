@@ -20,6 +20,16 @@ return array(
                     ),
                 ),
             ),
+            'addAlbum' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/album/add',
+                    'defaults' => array(
+                        'controller' => 'Album\Controller\Album',
+                        'action'     => 'add',
+                    ),
+                ),
+            ),
             // The following is a route to simplify getting started creating
             // new controllers and actions without needing to create a new
             // module. Simply drop new controllers in, and you can access them
