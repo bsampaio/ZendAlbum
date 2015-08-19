@@ -30,7 +30,7 @@ return [
             'album' => [
                 'type' => 'segment',
                 'options' => [
-                    'route' => '/album[/:action][/:id]',
+                    'route' => '/album[/][/:action][/:id]',
                     'contraints' => [
                         'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                         'id' => '[0-9]+',
